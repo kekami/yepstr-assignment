@@ -8,4 +8,4 @@ Alla bilder är lagrade i molnet på Amazon S3 bucket.
 
 För att testa appen live, ladda ner Expo's mobilapp och skanna QR-koden. Fingers crossed.
 
-[Se instruktioner här](https://expo.io/@kekami/yepstr-assignment)
+[För instruktioner, klicka här](https://expo.io/@kekami/yepstr-assignment)
