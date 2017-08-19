@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "yepstr-assignment",
-    "description": "An empty new project",
+    "description": "A category view",
     "slug": "yepstr-assignment",
     "privacy": "public",
     "sdkVersion": "19.0.0",
