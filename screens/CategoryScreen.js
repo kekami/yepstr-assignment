@@ -34,12 +34,12 @@ class CategoryScreen extends Component {
     },
     headerRight: (
       <TouchableOpacity onPress={() => navigation.navigate()}>
-        <Icon containerStyle={{ marginRight: 10 }} color="#fff" type="entypo" name="cross" />
+        <Icon containerStyle={{ marginRight: 15 }} color="#fff" type="entypo" name="cross" />
       </TouchableOpacity>
     ),
     headerLeft: Platform.OS === 'ios' && (
       <TouchableOpacity onPress={() => navigation.goBack()}>
-        <Icon containerStyle={{ marginLeft: 10 }} color="#fff" type="entypo" name="chevron-small-left" />
+        <Icon containerStyle={{ marginLeft: 15 }} color="#fff" type="entypo" name="chevron-small-left" />
       </TouchableOpacity>
     ),
   });
