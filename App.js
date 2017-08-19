@@ -1,21 +1,29 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, Platform, StatusBar } from 'react-native';
+import { Provider } from 'react-redux';
+import { StackNavigator } from 'react-navigation';
+import CategoryScreen from './screens/CategoryScreen';
+import store from './store';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+const App = () => {
+  const MainNavigator = StackNavigator({
+    categories: { screen: CategoryScreen },
+  });
+
+  return (
+    <Provider store={store}>
+      <View style={[styles.container, { paddingTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight }]}>
+        <MainNavigator />
       </View>
-    );
-  }
-}
+    </Provider>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#F59B26',
   },
 });
+
+export default App;

@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "id": "143564536",
+      "title": "Barnpassning",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-babysitting.png"
+    },
+    {
+      "id": "876585678",
+      "title": "Läxhjälp",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-homework.png"
+    },
+    {
+      "id": "108970987",
+      "title": "Sport och musik",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-music.png"
+    },
+    {
+      "id": "657467564",
+      "title": "Trädgård",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-gardening.png"
+    },
+    {
+      "id": "089078965",
+      "title": "Festhjälp",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-event-helper.png"
+    },
+    {
+      "id": "325368556",
+      "title": "Husdjur",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-dog-walking.png"
+    },
+    {
+      "id": "234786876",
+      "title": "Måla och bygg",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-painting.png"
+    },
+    {
+      "id": "253265856",
+      "title": "IT support",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-it-support.png"
+    },
+    {
+      "id": "352576575",
+      "title": "Övrigt",
+      "icon": "https://s3.eu-central-1.amazonaws.com/yepstr-assignment/icon-misc.png"
+    }
+  ]
+}
