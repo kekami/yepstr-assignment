@@ -21,7 +21,6 @@ const styles = {
   },
   header: {
     color: '#fff',
-    fontWeight: 'bold',
     fontSize: 18,
   },
 };
